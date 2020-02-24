@@ -3,7 +3,6 @@ import random
 
 import pygame
 
-
 # Intialize the pygame
 pygame.init()
 
@@ -12,8 +11,6 @@ screen = pygame.display.set_mode((800, 600))
 
 # Background
 background = pygame.image.load('background.png')
-
-
 
 # Caption and Icon
 pygame.display.set_caption("Space Invader")
@@ -25,6 +22,7 @@ playerImg = pygame.image.load('player.png')
 playerX = 370
 playerY = 480
 playerX_change = 0
+player_hp = 3
 
 # Enemy
 enemyImg = []
@@ -70,6 +68,11 @@ def show_score(x, y):
     screen.blit(score, (x, y))
 
 
+def heart():
+    hart = font.render("HP: " + str(player_hp), True, (255, 255, 255))
+    screen.blit(hart, (10, 50))
+
+
 def game_over_text():
     over_text = over_font.render("GAME OVER", True, (255, 255, 255))
     screen.blit(over_text, (200, 250))
@@ -105,6 +108,7 @@ while running:
     screen.fill((0, 0, 0))
     # Background Image
     screen.blit(background, (0, 0))
+    heart()
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
@@ -138,7 +142,13 @@ while running:
     for i in range(num_of_enemies):
 
         # Game Over
-        if enemyY[i] > 440:
+        if player_hp > 0:
+            if enemyY[i] > 440:
+                player_hp -= 1
+                enemyX[i] = random.randint(0, 736)
+                enemyY[i] = random.randint(50, 150)
+
+        elif player_hp <= 0:
             for j in range(num_of_enemies):
                 enemyY[j] = 2000
             game_over_text()
