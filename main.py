@@ -27,7 +27,6 @@ player_hp = 3
 # Game ranking
 
 f = open("RANKING.txt", "r")
-
 rank = []
 lines = f.readlines()
 rank.append(lines)
@@ -44,7 +43,7 @@ for i in range(num_of_enemies):
     enemyImg.append(pygame.image.load('enemy.png'))
     enemyX.append(random.randint(0, 736))
     enemyY.append(50)
-    enemyX_change.append(0.1)
+    enemyX_change.append(1)
     enemyY_change.append(64)
 
 # Bullet
@@ -56,7 +55,7 @@ bulletImg = pygame.image.load('bullet.png')
 bulletX = 0
 bulletY = 480
 bulletX_change = 0
-bulletY_change = 1
+bulletY_change = 3
 bullet_state = "ready"
 
 # Score
@@ -131,9 +130,9 @@ while running:
         # if keystroke is pressed check whether its right or left
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_LEFT:
-                playerX_change = -1
+                playerX_change = -3
             if event.key == pygame.K_RIGHT:
-                playerX_change = 1
+                playerX_change = 3
             if event.key == pygame.K_SPACE:
                 if bullet_state == "ready":
                     # Get the current x cordinate of the spaceship
@@ -161,7 +160,7 @@ while running:
             if enemyY[i] > 440:
                 player_hp -= 1
                 enemyX[i] = random.randint(0, 736)
-                enemyY[i] = random.randint(50, 150)
+                enemyY[i] = 50
 
         elif player_hp <= 0:
             for j in range(num_of_enemies):
@@ -172,10 +171,10 @@ while running:
 
         enemyX[i] += enemyX_change[i]
         if enemyX[i] <= 0:
-            enemyX_change[i] = 0.3
+            enemyX_change[i] = 0.5
             enemyY[i] += enemyY_change[i]
         elif enemyX[i] >= 736:
-            enemyX_change[i] = -0.3
+            enemyX_change[i] = -0.5
             enemyY[i] += enemyY_change[i]
 
         # Collision

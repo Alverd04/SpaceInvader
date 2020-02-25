@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7d0fd4a-9b28-4e0e-bf1c-c068dc3b4644" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Read.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Black Jack" beforeDir="false" afterPath="$PROJECT_DIR$/../Black Jack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cube Timer" beforeDir="false" afterPath="$PROJECT_DIR$/../Cube Timer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplyCodeChallenge/Party" beforeDir="false" afterPath="$PROJECT_DIR$/../ReplyCodeChallenge/Party" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Snake" beforeDir="false" afterPath="$PROJECT_DIR$/../Snake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +41,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Read">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="Read" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SpaceInvader" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,8 +132,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Read" />
         <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.Read" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.highscore" />
       </list>
@@ -183,6 +178,9 @@
       <workItem from="1582548284544" duration="402000" />
       <workItem from="1582574012242" duration="1314000" />
       <workItem from="1582619663543" duration="1037000" />
+      <workItem from="1582626378805" duration="509000" />
+      <workItem from="1582627044127" duration="26000" />
+      <workItem from="1582643129388" duration="352000" />
     </task>
     <servers />
   </component>
@@ -190,25 +188,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1219" y="266" key="FileChooserDialogImpl" timestamp="1582548678200">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="975" y="211" key="FileChooserDialogImpl" timestamp="1582627066069">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="975" y="211" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582627066069" />
     <state x="1219" y="266" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582548678200" />
-    <state width="1877" height="327" key="GridCell.Tab.0.bottom" timestamp="1582620700988">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1582643521163">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582643521163" />
     <state width="1877" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582620700988" />
-    <state width="1877" height="327" key="GridCell.Tab.0.center" timestamp="1582620700988">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1582643521163">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582643521163" />
     <state width="1877" height="327" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582620700988" />
-    <state width="1877" height="327" key="GridCell.Tab.0.left" timestamp="1582620700988">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1582643521163">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582643521163" />
     <state width="1877" height="327" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582620700988" />
-    <state width="1877" height="327" key="GridCell.Tab.0.right" timestamp="1582620700988">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1582643521163">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582643521163" />
     <state width="1877" height="327" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582620700988" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1582544505179">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -230,15 +233,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582461593684" />
-    <state x="1136" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1582619665161">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="909" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1582627044536">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="909" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582627044536" />
     <state x="1136" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582619665161" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SpaceInvader$Read.coverage" NAME="Read Coverage Results" MODIFIED="1582620373297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SpaceInvader$Read.coverage" NAME="Read Coverage Results" MODIFIED="1582626395832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SpaceInvader$highscore.coverage" NAME="highscore Coverage Results" MODIFIED="1582464711002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SpaceInvader$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1582619684023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SpaceInvader$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1582643438576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SpaceInvader$main.coverage" NAME="main Coverage Results" MODIFIED="1582489638344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SpaceInvader$Game.coverage" NAME="main Coverage Results" MODIFIED="1582390287599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
