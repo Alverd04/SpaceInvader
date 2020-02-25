@@ -6,8 +6,6 @@
       <change beforePath="$PROJECT_DIR$/../Black Jack" beforeDir="false" afterPath="$PROJECT_DIR$/../Black Jack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ReplyCodeChallenge/Party" beforeDir="false" afterPath="$PROJECT_DIR$/../ReplyCodeChallenge/Party" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ReplyCodeChallenge/Quantum teleportation/src/input.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +156,7 @@
       <workItem from="1582544972610" duration="732000" />
       <workItem from="1582548284544" duration="402000" />
       <workItem from="1582574012242" duration="1314000" />
+      <workItem from="1582619663543" duration="19000" />
     </task>
     <servers />
   </component>
@@ -205,14 +204,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582461593684" />
-    <state x="1136" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1582548497001">
+    <state x="1136" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1582619665161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1136" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582548497001" />
+    <state x="1136" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582619665161" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SpaceInvader$highscore.coverage" NAME="highscore Coverage Results" MODIFIED="1582464711002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SpaceInvader$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1582575299015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SpaceInvader$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1582619684023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SpaceInvader$main.coverage" NAME="main Coverage Results" MODIFIED="1582489638344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SpaceInvader$Game.coverage" NAME="main Coverage Results" MODIFIED="1582390287599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
