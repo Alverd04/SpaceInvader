@@ -3,7 +3,7 @@ import random
 
 import pygame
 
-# Intialize the pygame
+# Initialize the pygame
 pygame.init()
 
 # create the screen
@@ -24,6 +24,14 @@ playerY = 480
 playerX_change = 0
 player_hp = 3
 
+# Game ranking
+
+f = open("RANKING.txt", "r")
+
+rank = []
+lines = f.readlines()
+rank.append(lines)
+
 # Enemy
 enemyImg = []
 enemyX = []
@@ -35,9 +43,9 @@ num_of_enemies = 6
 for i in range(num_of_enemies):
     enemyImg.append(pygame.image.load('enemy.png'))
     enemyX.append(random.randint(0, 736))
-    enemyY.append(random.randint(50, 150))
+    enemyY.append(50)
     enemyX_change.append(0.1)
-    enemyY_change.append(40)
+    enemyY_change.append(64)
 
 # Bullet
 
@@ -61,6 +69,12 @@ testY = 10
 
 # Game Over
 over_font = pygame.font.Font('freesansbold.ttf', 64)
+
+
+def print_ranking():
+    for x in range(len(rank)):
+        file = font.render("RANKING: " + str(rank[x]), True, (255, 255, 255))
+        screen.blit(file, (150, 330))
 
 
 def show_score(x, y):
@@ -109,6 +123,7 @@ while running:
     # Background Image
     screen.blit(background, (0, 0))
     heart()
+
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
@@ -152,6 +167,7 @@ while running:
             for j in range(num_of_enemies):
                 enemyY[j] = 2000
             game_over_text()
+            print_ranking()
             break
 
         enemyX[i] += enemyX_change[i]
@@ -169,7 +185,7 @@ while running:
             bullet_state = "ready"
             score_value += 1
             enemyX[i] = random.randint(0, 736)
-            enemyY[i] = random.randint(50, 150)
+            enemyY[i] = 50
 
         enemy(enemyX[i], enemyY[i], i)
 
