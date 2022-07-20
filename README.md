@@ -1,3 +1,3 @@
 ﻿# SpaceInvader
 
-Classic space invader game done with python
+Classic space invader game done with python. 
